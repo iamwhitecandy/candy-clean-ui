@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "candy-clean-ui",
+  "version": "1.0.0",
+  "name": "Candy Clean UI",
+  "description": "Suppresses intrusive toasts (advancements, recipe popups, unsecure server warning) for ServerCandy DayZ.",
+  "authors": [
+    "ServerCandy"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.servercandy.cleanui.CandyCleanUiClient"
+    ]
+  },
+  "mixins": [
+    "candy-clean-ui.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

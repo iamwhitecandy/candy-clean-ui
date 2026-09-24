@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.servercandy.cleanui.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ToastManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
